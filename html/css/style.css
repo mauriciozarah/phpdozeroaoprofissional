@@ -1,0 +1,22 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+.fixed{
+	position:fixed;
+	right:10px;
+	bottom:0;
+	width:250px;
+	height:30px;
+	border-radius: 5px 5px 0 0;
+	background:#3f3f3f;
+}
+
+.fixed-right{
+	position:fixed;
+	right:0;
+	bottom:50px;
+	color:#fff;
+	background:#3f3f3f;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scale 3D</title>
+	<style>
+		section, div{
+			width:400px;
+			height:400px;
+			font-size:40px;
+			color:#fff;
+		}
+		#box1{
+			border:3px solid #999;
+			margin:50px auto 50px;
+		}
+		#box2{
+			background:red;
+			-webkit-transform:scale3d(0.8, 0.99, 0);
+			transform:scale3d(0.8, 0.99, 1);
+		}
+	</style>
+</head>
+<body>
+	<section id="box1">
+		<div id="box2">
+			Scale 3D
+		</div>
+	</section>
+</body>
+</html>

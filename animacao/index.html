@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animação CSS3</title>
+	<style>
+
+		@keyframes exemplo{
+			0%{
+				background:#ff0000;
+			}
+			25%{
+				background:#00ff00;
+				margin-left:100px;
+				margin-top:100px;
+			}
+			50%{
+				background:#0000ff;
+				margin-left:200px;
+				margin-top:200px;
+			}
+			75%{
+				background:#f0f0f0;
+				margin-left:300px;
+				margin-top:300px;
+			}
+			100%{
+				background:#ff0000;
+				margin-left:400px;
+				margin-top:400px;
+			}
+		}
+
+		.exemplo{
+			width:150px;
+			height:150px;
+			background:green;
+			animation-name:exemplo;
+			animation-duration:5s;
+			animation-delay:2s;
+			animation-iteration-count:3; /*infinite*/
+		}
+	</style>
+</head>
+<body>
+	<div class="exemplo">
+		
+	</div>
+</body>
+</html>

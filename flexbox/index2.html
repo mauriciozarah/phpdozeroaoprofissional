@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flex 2</title>
+	<style type="text/css">
+		.container{
+			display:flex;
+			flex-direction:row;
+			/*flex-direction:column;*/
+		}
+		.flex1, .flex2, .flex3, .flex4, .flex5, .flex6{
+			height:250px;
+			background:#ff0000;
+			margin:5px;
+			padding:10px;
+			color:#fff;
+		}
+		.flex1{
+			display:flex;
+			flex:1;
+			justify-content:right;
+			align-items:center;
+		}
+		.flex2{
+			flex:1;
+		}
+		.flex3{
+			display:flex;
+			flex:3;
+			align-items:center;
+			justify-content:center;
+		}
+
+		.container2{
+			display:flex;
+			flex-direction:row-reverse;
+			/*flex-direction:column-reverse;*/
+		}
+		.flex4{
+			flex:1;
+		}
+		.flex5{
+			flex:1;
+		}
+		.flex6{
+			flex:2;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="flex1">Olá Mundo 1!!!</div>
+		<div class="flex2">Olá Mundo 2!!!</div>
+		<div class="flex3">Olá Mundo 3s!!!</div>
+	</div>
+
+	<div class="container2">
+		<div class="flex4">Olá Mundo 1!!!</div>
+		<div class="flex5">Olá Mundo 2!!!</div>
+		<div class="flex6">Olá Mundo 3s!!!</div>
+	</div>
+</body>
+</html>

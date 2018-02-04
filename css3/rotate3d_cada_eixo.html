@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rotate 3d para cada eixo</title>
+	<style>
+		section, div{
+			width:200px;
+			height:200px;
+			font-size:20px;
+			color:#fff;
+		}
+
+		#box1{
+			border:1px solid #999;
+			margin:50px auto 40px;
+		}
+
+		#box2{
+			background:#ff0000;
+			-webkit-transform:perspective(150px) rotateX(1deg) rotateY(20deg) rotateZ(5deg);
+			transform:perspective(150px) rotateX(1deg) rotateY(20deg) rotateZ(5deg);
+		}
+	</style>
+</head>
+<body>
+	<section id="box1">
+		<div id="box2">
+			Perspectiva rotate separada: rotateX, rotateY, rotateZ
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transições</title>
+	<style>
+		body{
+			margin:0;
+		}
+		.exemplo{
+			width:150px;
+			height:150px;
+			background:#ff0000;
+			margin:50px auto;
+			transition:all 1s linear; /*linear = na mesma velocidade / all = toda mudança*/
+
+			word-wrap:break-word; /*quebra a palavra outro valor é normal*/
+			
+		}
+		.exemplo:hover{
+			width:300px;
+			background:green;
+		}
+
+		a{
+			color:#000;
+			text-decoration:none;
+			transition:all 1s linear;
+		}
+
+		a:hover{
+			text-decoration:underline;
+			color:#ff0000;
+		}
+	</style>
+</head>
+<body>
+	<div class="exemplo">
+		xasdfasdfqewasvqewrfadvadqwefadcvaefadvasaverarf
+	</div>
+	<a href="">Clique aqui meu link</a> <br>
+	<br>
+	<br>
+	IE = Trident (Engine)
+	Edge = EdgeHTML
+	Firefox = Gecko
+	Opera = Webkit
+	safari = webkit
+	Chrome = webkit(melhorada) Blink
+</body>
+</html>

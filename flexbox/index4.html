@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flax Box Wrap</title>
+	<style type="text/css">
+	.container{
+		display:flex;
+		height:500px;
+		/*
+		flex-direction:row;
+		row-reverse
+		flex-direction:column;
+		column-reverse
+		flex-wrap:wrap;
+		flex-wrap:nowrap;
+		flex-flow:column wrap;
+		wrap, nowrap
+		*/
+		/*flex-flow:row wrap;*/
+		/*================== ALINHA NA HORIZONTAL ================*/
+		justify-content:center;
+		/*
+		justify-content:flex-start; // alinha a esquerda
+		justify-content:flex-end; // alinha a direita
+		justify-content:space-around; // justifica realvemente
+		justify-content:space-between; // justifica colando os lados zerado na esquerda e na direita
+
+		*/
+		/*============ ÃLINHA NA VERTICAL =============*/
+		align-items:center;
+
+		/*
+		align-items:flex-start; // alinha a esquerda
+		align-items:flex-end; // alinha a direita
+		align-items:space-around; // justifica realvemente
+		align-items:space-between; // justifica colando os lados zerado na esquerda e na direita
+		*/
+	}
+
+	.container div{
+		width:200px;
+		height:200px;
+		color:#fff;
+		background:#ff0000;
+		margin:5px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</body>
+</html>

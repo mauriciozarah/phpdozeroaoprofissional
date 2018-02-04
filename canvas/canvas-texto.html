@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas Texto</title>
+	<style>
+		#canvas{
+			border:1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="400" height="400"></canvas>
+	<script>
+		var c = document.getElementById("canvas");
+		var ctx = c.getContext("2d");
+
+		ctx.font = "30px Arial";
+		ctx.fillStyle = "#ff0000";
+		ctx.fillText("Oi, tudo bem?", 50, 50);
+
+	</script>
+</body>
+</html>
