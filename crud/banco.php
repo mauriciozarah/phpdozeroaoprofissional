@@ -9,8 +9,7 @@ class Banco{
 	public static function getInstance(){
 		if(!isset(self::$instance)){
 			try{
-				self::$instance = new PDO('mysql:dbname=crud_oo;host=localhost;', 'root', '123');			}catch(PDOException $e){
-				
+				self::$instance = new PDO('mysql:dbname=crud_oo;host=localhost;', 'root', '123');				
 			}catch(PDOException $e){
 				echo "Error:" . $e->getMessage();
 			}
